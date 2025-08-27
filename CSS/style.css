@@ -1,0 +1,79 @@
+/* Import creative Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&family=Open+Sans:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  background: linear-gradient(135deg, #fbe8d3, #fde9e0, #fbd6c1);
+  color: #4a2e2e;
+  transition: background 0.5s ease-in-out;
+}
+
+header {
+  background: linear-gradient(to right, #ffb88c, #ff6f61);
+  color: #fff5f0;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-weight: 700;
+  margin: 1rem 0;
+  color: #4a2e2e;
+}
+
+main {
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.8);
+  margin: 2rem auto;
+  max-width: 900px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.08);
+}
+
+p {
+  line-height: 1.6;
+  color: #5a3d3d;
+  font-size: 1.1rem;
+}
+
+a {
+  color: #e85a4f;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #bc3f32;
+}
+
+button {
+  background: #f88d70;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #e8775e;
+}
+
+footer {
+  background: linear-gradient(to right, #ffe1cf, #ffd4c2);
+  color: #4a2e2e;
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 3rem;
+  font-size: 0.95rem;
+}
