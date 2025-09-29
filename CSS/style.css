@@ -1,5 +1,4 @@
-/* Import creative Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&family=Open+Sans:wght@400;600&display=swap');
+
 
 body {
   margin: 0;
@@ -22,13 +21,14 @@ h1, h2, h3 {
   font-family: 'Playfair Display', serif;
   font-style: italic;
   font-weight: 700;
+  text-align: center;
   margin: 1rem 0;
   color: #4a2e2e;
 }
 
 main {
   padding: 2rem;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(250, 105, 8, 0.8);
   margin: 2rem auto;
   max-width: 900px;
   border-radius: 12px;
@@ -53,8 +53,8 @@ a:hover {
 }
 
 button {
-  background: #f88d70;
-  color: white;
+  background: #d8f870;
+  color: rgb(141, 121, 251);
   padding: 0.7rem 1.5rem;
   border: none;
   border-radius: 8px;
@@ -77,3 +77,91 @@ footer {
   margin-top: 3rem;
   font-size: 0.95rem;
 }
+nav{ 
+  background-color: rgb(8, 9, 9);
+  overflow: hidden;
+}
+nav {
+  float: top;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.roundB{
+  width: 75px;
+  height: 75px;
+  border-radius: 50px;
+  
+  
+}
+@media only screen and (max-width: 600px)
+{
+    body
+    {
+        background-color: rgb(0, 204, 255);
+
+        margin: 0;
+        padding: 0;
+        font-family: 'Open Sans', sans-serif;
+        background: linear-gradient(135deg, #c9a11f, #ce4607, #d19979);
+        color: #4a2e2e;
+        transition: background 0.5s ease-in-out;
+    }
+    main
+    {
+      background-color: rgb(129, 81, 65); size: 17pt;
+      padding: 2rem;
+      background: rgba(219, 126, 4, 0.8);
+      margin: 2rem auto;
+      max-width: 900px;
+      border-radius: 12px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.08);
+    }
+    h1, h2, h3 {
+      font-family: 'Playfair Display', serif;
+      font-style: italic;
+      font-weight: 700;
+      margin: 1rem 0;
+      color: #49d137;
+    }
+    button {
+      background-color: #352d34;
+      color: rgb(10, 250, 50);
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    header {
+      background: linear-gradient(to right, #ffb88c, #ff6f61);
+      color: #fff5f0;
+      padding: 2rem;
+      text-align: center;
+      box-shadow: 0 4px 6px rgb(80, 78, 1);
+    }
+    img {
+      width: 120px;
+      height: 60px;
+    }
+    .llb
+    {
+        font-size: 17px;
+        font-weight: bold;
+        color: white;
+    }
+    nav{ 
+      background-color: rgb(38, 75, 75);
+      overflow: hidden;
+    }
+    footer {
+      background: linear-gradient(to right, #f69051, #ffd4c2);
+      color: #b15050;
+      text-align: center;
+      padding: 1.5rem;
+      margin-top: 3rem;
+      font-size: 0.95rem;
+    }
+    
+  }

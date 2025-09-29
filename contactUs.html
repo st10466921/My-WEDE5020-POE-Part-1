@@ -8,43 +8,50 @@
     <title>ContactUs Page</title>
     <h1><img src="./images/Logo.png" alt="bakery logo" width="200" height="100"><br>
 
-        <ol>
-            <p>
-            <a href="home.html">Go to Home page</a>
-            <a href="about.html">Go to About page</a><br>
-            <a href="services.html">Go to Services page</a>
-            <a href="contactUs.html">Go to ContactUs page</a>
-            </p>
-        </ol>
+        <nav>
+            <ol>
+                <p>
+                <a href="home.html"> Home page</a>
+                <a href="about.html"> About page</a><br>
+                <a href="services.html"> Services page</a>
+                <a href="contactUs.html"> ContactUs page</a>
+                </p>
+            </ol>
+            </nav>
 </h1>
 </head>
-<main style="background-color: rgb(204, 64, 18); size: 17pt;">
+<main >
 <body>
+     <!--
+    this is the body which contains every detail
+    -->
 
     <h1>ContactUs</h1>
     <h4>We would like to hear from you with feedback on our products, please leave a message and your details for us</h4>
 
     <div class="grid-2">
-    <form action="" name="">
+    <form action="" name="" class="llb">
 
-        <label for="txtname">First Name</label>
-        <input type="text" name="txtname" required>
+        <label for="txtname">First Name</label><br>
+        <input type="text" name="txtname" required><br>
 
-        <label>Enter Email</label>
-        <input type="email" name="txtemail" required>
+        <label>Enter Email</label><br>
+        <input type="email" name="txtemail" required><br>
 
-        <label for="txttel">Enter Telephone</label>
+        <label for="txttel">Enter Telephone</label><br>
         <input type="tel" name="txttel" placeholder="(+27)12-776-5342" required>
         <br><br>
-        <lable>Feedback</lable>
+        <lable>Feedback</lable><br>
         <input type="feedback" name="txtfeedback" rows="6" required>
 
         <br><br>
 
         <button class="btn primary" type="submit">Send Details</button>
 
+        <button class="roundB"> Home Page</button>
+
         
-    </form>
+    </form >
     </div>
 
     <aside>
@@ -65,4 +72,7 @@
     <p> Copyright &copy; 2025</p>
     <p>SweetCrumbs&trade;</p>
 </footer>
+<!--
+    this is the footer which contains details like copy right
+    -->
 </html>
